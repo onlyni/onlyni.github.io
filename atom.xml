@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mr.Dream Blog</title>
+  
+  <subtitle>以梦为马，莫负韶华!</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://makedreamsir.xyz/"/>
+  <updated>2019-06-16T13:16:37.998Z</updated>
+  <id>http://makedreamsir.xyz/</id>
+  
+  <author>
+    <name>Mr.Dream&#39;s Blog</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>love421</title>
+    <link href="http://makedreamsir.xyz/2019/06/16/love421/"/>
+    <id>http://makedreamsir.xyz/2019/06/16/love421/</id>
+    <published>2019-06-16T13:16:37.998Z</published>
+    <updated>2019-06-16T13:16:37.998Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="421万岁"><a href="#421万岁" class="headerlink" title="421万岁"></a>421万岁</h1><a id="more"></a><h2 id="发送"><a href="#发送" class="headerlink" title="发送"></a>发送</h2><h3 id="发送-1"><a href="#发送-1" class="headerlink" title="发送"></a>发送</h3><h4 id="发送-2"><a href="#发送-2" class="headerlink" title="发送"></a>发送</h4><p><a href="https://www.jianshu.com" target="_blank" rel="noopener">简书</a><br><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3300305952,1328708913&fm=27&gp=0.jpg" alt><br><img src="https://upload-images.jianshu.io/upload_images/18278043-e3cac1fea0ca896d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;421万岁&quot;&gt;&lt;a href=&quot;#421万岁&quot; class=&quot;headerlink&quot; title=&quot;421万岁&quot;&gt;&lt;/a&gt;421万岁&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="sdafasg" scheme="http://makedreamsir.xyz/tags/sdafasg/"/>
+    
+      <category term="dag" scheme="http://makedreamsir.xyz/tags/dag/"/>
+    
+      <category term="agfa" scheme="http://makedreamsir.xyz/tags/agfa/"/>
+    
+      <category term="dagg" scheme="http://makedreamsir.xyz/tags/dagg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ceshi测试</title>
+    <link href="http://makedreamsir.xyz/2019/06/15/test/"/>
+    <id>http://makedreamsir.xyz/2019/06/15/test/</id>
+    <published>2019-06-15T14:12:19.099Z</published>
+    <updated>2019-06-15T14:12:19.099Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="发送"><a href="#发送" class="headerlink" title="发送"></a>发送</h1><a id="more"></a><h2 id="发送-1"><a href="#发送-1" class="headerlink" title="发送"></a>发送</h2><h3 id="发送-2"><a href="#发送-2" class="headerlink" title="发送"></a>发送</h3><h4 id="发送-3"><a href="#发送-3" class="headerlink" title="发送"></a>发送</h4><p><a href="https://www.jianshu.com" target="_blank" rel="noopener">简书</a><br><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3300305952,1328708913&fm=27&gp=0.jpg" alt><br><img src="https://upload-images.jianshu.io/upload_images/18278043-e3cac1fea0ca896d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;发送&quot;&gt;&lt;a href=&quot;#发送&quot; class=&quot;headerlink&quot; title=&quot;发送&quot;&gt;&lt;/a&gt;发送&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="centOS" scheme="http://makedreamsir.xyz/tags/centOS/"/>
+    
+      <category term="tomcat" scheme="http://makedreamsir.xyz/tags/tomcat/"/>
+    
+      <category term="hexo" scheme="http://makedreamsir.xyz/tags/hexo/"/>
+    
+      <category term="STM32" scheme="http://makedreamsir.xyz/tags/STM32/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://makedreamsir.xyz/2019/06/14/hello-world/"/>
+    <id>http://makedreamsir.xyz/2019/06/14/hello-world/</id>
+    <published>2019-06-14T07:56:36.621Z</published>
+    <updated>2019-06-14T07:56:36.621Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>如何搭建基于Hexo的独立博客</title>
+    <link href="http://makedreamsir.xyz/2017/07/05/cs/"/>
+    <id>http://makedreamsir.xyz/2017/07/05/cs/</id>
+    <published>2017-07-04T16:00:00.000Z</published>
+    <updated>2019-06-17T08:25:24.977Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是预览,概要之前一直用 Python IDLE 写代码，最近换成 PyCharm 写代码总是会出现波浪号，这才了解到 Python 的 PEP8 代码规范，所以将常见的 PEP8 代码规范问题和解决方法记录一下，学习一下，遇到了再持续更新，养成良好的习惯，编写规范的代码！</p><a id="more"></a><p>这是正文，CDN的全称是Content Delivery Network，即内容分发网络。CDN是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存储和分发技术。——百度百科<br>放在Github的资源在国内加载速度比较慢，因此需要使用CDN加速来优化网站打开速度，jsDeliver + Github便是免费且好用的CDN，非常适合博客网站使用。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是预览,概要之前一直用 Python IDLE 写代码，最近换成 PyCharm 写代码总是会出现波浪号，这才了解到 Python 的 PEP8 代码规范，所以将常见的 PEP8 代码规范问题和解决方法记录一下，学习一下，遇到了再持续更新，养成良好的习惯，编写规范的代码！&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Dev" scheme="http://makedreamsir.xyz/categories/Dev/"/>
+    
+      <category term="Cocoa" scheme="http://makedreamsir.xyz/categories/Dev/Cocoa/"/>
+    
+    
+      <category term="blog" scheme="http://makedreamsir.xyz/tags/blog/"/>
+    
+      <category term="Hexo" scheme="http://makedreamsir.xyz/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>

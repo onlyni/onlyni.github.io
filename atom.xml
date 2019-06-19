@@ -5,9 +5,9 @@
   <subtitle>以梦为马，莫负韶华!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://makedreamsir.xyz/"/>
+  <link href="http://blog.makedreamsir.xyz/"/>
   <updated>2019-06-16T13:16:37.998Z</updated>
-  <id>http://makedreamsir.xyz/</id>
+  <id>http://blog.makedreamsir.xyz/</id>
   
   <author>
     <name>Mr.Dream&#39;s Blog</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>love421</title>
-    <link href="http://makedreamsir.xyz/2019/06/16/love421/"/>
-    <id>http://makedreamsir.xyz/2019/06/16/love421/</id>
+    <link href="http://blog.makedreamsir.xyz/2019/06/16/love421/"/>
+    <id>http://blog.makedreamsir.xyz/2019/06/16/love421/</id>
     <published>2019-06-16T13:16:37.998Z</published>
     <updated>2019-06-16T13:16:37.998Z</updated>
     
@@ -32,20 +32,20 @@
     </summary>
     
     
-      <category term="sdafasg" scheme="http://makedreamsir.xyz/tags/sdafasg/"/>
+      <category term="sdafasg" scheme="http://blog.makedreamsir.xyz/tags/sdafasg/"/>
     
-      <category term="dag" scheme="http://makedreamsir.xyz/tags/dag/"/>
+      <category term="dag" scheme="http://blog.makedreamsir.xyz/tags/dag/"/>
     
-      <category term="agfa" scheme="http://makedreamsir.xyz/tags/agfa/"/>
+      <category term="agfa" scheme="http://blog.makedreamsir.xyz/tags/agfa/"/>
     
-      <category term="dagg" scheme="http://makedreamsir.xyz/tags/dagg/"/>
+      <category term="dagg" scheme="http://blog.makedreamsir.xyz/tags/dagg/"/>
     
   </entry>
   
   <entry>
     <title>ceshi测试</title>
-    <link href="http://makedreamsir.xyz/2019/06/15/test/"/>
-    <id>http://makedreamsir.xyz/2019/06/15/test/</id>
+    <link href="http://blog.makedreamsir.xyz/2019/06/15/test/"/>
+    <id>http://blog.makedreamsir.xyz/2019/06/15/test/</id>
     <published>2019-06-15T14:12:19.099Z</published>
     <updated>2019-06-15T14:12:19.099Z</updated>
     
@@ -58,20 +58,20 @@
     </summary>
     
     
-      <category term="centOS" scheme="http://makedreamsir.xyz/tags/centOS/"/>
+      <category term="centOS" scheme="http://blog.makedreamsir.xyz/tags/centOS/"/>
     
-      <category term="tomcat" scheme="http://makedreamsir.xyz/tags/tomcat/"/>
+      <category term="tomcat" scheme="http://blog.makedreamsir.xyz/tags/tomcat/"/>
     
-      <category term="hexo" scheme="http://makedreamsir.xyz/tags/hexo/"/>
+      <category term="hexo" scheme="http://blog.makedreamsir.xyz/tags/hexo/"/>
     
-      <category term="STM32" scheme="http://makedreamsir.xyz/tags/STM32/"/>
+      <category term="STM32" scheme="http://blog.makedreamsir.xyz/tags/STM32/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://makedreamsir.xyz/2019/06/14/hello-world/"/>
-    <id>http://makedreamsir.xyz/2019/06/14/hello-world/</id>
+    <link href="http://blog.makedreamsir.xyz/2019/06/14/hello-world/"/>
+    <id>http://blog.makedreamsir.xyz/2019/06/14/hello-world/</id>
     <published>2019-06-14T07:56:36.621Z</published>
     <updated>2019-06-14T07:56:36.621Z</updated>
     
@@ -88,8 +88,8 @@
   
   <entry>
     <title>如何搭建基于Hexo的独立博客</title>
-    <link href="http://makedreamsir.xyz/2017/07/05/cs/"/>
-    <id>http://makedreamsir.xyz/2017/07/05/cs/</id>
+    <link href="http://blog.makedreamsir.xyz/2017/07/05/cs/"/>
+    <id>http://blog.makedreamsir.xyz/2017/07/05/cs/</id>
     <published>2017-07-04T16:00:00.000Z</published>
     <updated>2019-06-17T08:25:24.977Z</updated>
     
@@ -101,14 +101,14 @@
     
     </summary>
     
-      <category term="Dev" scheme="http://makedreamsir.xyz/categories/Dev/"/>
+      <category term="Dev" scheme="http://blog.makedreamsir.xyz/categories/Dev/"/>
     
-      <category term="Cocoa" scheme="http://makedreamsir.xyz/categories/Dev/Cocoa/"/>
+      <category term="Cocoa" scheme="http://blog.makedreamsir.xyz/categories/Dev/Cocoa/"/>
     
     
-      <category term="blog" scheme="http://makedreamsir.xyz/tags/blog/"/>
+      <category term="blog" scheme="http://blog.makedreamsir.xyz/tags/blog/"/>
     
-      <category term="Hexo" scheme="http://makedreamsir.xyz/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://blog.makedreamsir.xyz/tags/Hexo/"/>
     
   </entry>
   

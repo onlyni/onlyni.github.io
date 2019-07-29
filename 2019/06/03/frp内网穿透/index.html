@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">rss | 爱情客栈❤️小鱼小虾</title>
+  <title itemprop="name">自用frp服务器分享及客户端配置连接教程 | 爱情客栈❤️小鱼小虾</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -269,12 +269,104 @@
   </div>
 </header>
 
-        <div class="pattern-center-blank"></div>
-  
-  <div id="content" class="site-content">
-    <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
-      
-      <!-- .entry-content -->
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+          <header class="entry-header">
+            <h1 class="entry-title">自用frp服务器分享及客户端配置连接教程</h1>
+            <p class="entry-census">&nbsp;·&nbsp;2019-6-3&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p><p></p>
+
+            <hr>
+          </header>
+        
+        <div class="entry-content">
+          <h1 id="What-is-frp"><a href="#What-is-frp" class="headerlink" title="What is frp?"></a>What is frp?</h1><p><a href="https://github.com/fatedier/frp" target="_blank" rel="noopener">frp</a>是一个快速反向代理，可帮助您将NAT或防火墙后面的本地服务器暴露给Internet。 截至目前，它支持tcp＆udp以及http和https协议，其中请求可以通过域名转发到内部服务。</p>
+<a id="more"></a>
+<h2 id="一、免费的FRP服务器信息"><a href="#一、免费的FRP服务器信息" class="headerlink" title="一、免费的FRP服务器信息"></a>一、免费的FRP服务器信息</h2><p>FRP版本号：0.26.0 </p>
+<p>连接地址为：<strong><a href="http://www.makedreamsirfrp.xyz:7000" target="_blank" rel="noopener">www.makedreamsirfrp.xyz:7000</a></strong></p>
+<p>特权认证密码为：<strong>love421forever</strong></p>
+<p>状态查询：<strong><a href="http://www.makedreamsirfrp.xyz:7500" target="_blank" rel="noopener">http://www.makedreamsirfrp.xyz:7500</a></strong></p>
+<p>查询帐号：<strong>love421</strong></p>
+<p>查询帐号：<strong>love421</strong></p>
+<p><font color="blue" size="5">默认http/https端口：<font color="red" size="6"><strong>80</strong></font>和<font color="red" size="6"><strong>433</strong></font></font></p>
+<p>支持<strong>subdomain</strong>和<strong>custom_domains</strong></p>
+<p><font color="blue" size="5">开放端口：<font color="red" size="6"><strong>全端口</strong></font></font></p>
+<p><img src="https://zcjun.oss-cn-shenzhen.aliyuncs.com/o_1deor57mchnd4ksp5t1hvcgeha.png" alt></p>
+<h2 id="二、客户端配置详细步骤"><a href="#二、客户端配置详细步骤" class="headerlink" title="二、客户端配置详细步骤"></a>二、客户端配置详细步骤</h2><h3 id="1、SSH连接上内网主机后，使用wget指令下载对应服务器版本的frp可执行文件，例如："><a href="#1、SSH连接上内网主机后，使用wget指令下载对应服务器版本的frp可执行文件，例如：" class="headerlink" title="1、SSH连接上内网主机后，使用wget指令下载对应服务器版本的frp可执行文件，例如："></a>1、<code>SSH</code>连接上内网主机后，使用<code>wget</code>指令下载对应服务器版本的frp<a href="https://github.com/fatedier/frp/releases" target="_blank" rel="noopener">可执行文件</a>，例如：</h3><pre><code class="linux">wget https://github.com/fatedier/frp/releases/download/v0.26.0/frp_0.26.0_linux_amd64.tar.gz</code></pre>
+<h3 id="2、解压刚刚下载的可执行文件"><a href="#2、解压刚刚下载的可执行文件" class="headerlink" title="2、解压刚刚下载的可执行文件"></a>2、解压刚刚下载的可执行文件</h3><pre><code class="linux">tar -zxvf frp_0.26.0_linux_amd64.tar.gz</code></pre>
+<h3 id="3、刷新一下，cd到刚刚解压之后出现的文件夹目录下"><a href="#3、刷新一下，cd到刚刚解压之后出现的文件夹目录下" class="headerlink" title="3、刷新一下，cd到刚刚解压之后出现的文件夹目录下"></a>3、刷新一下，<code>cd</code>到刚刚解压之后出现的文件夹目录下</h3><h3 id="4、打开frpc-ini文件，具体修改配置如下："><a href="#4、打开frpc-ini文件，具体修改配置如下：" class="headerlink" title="4、打开frpc.ini文件，具体修改配置如下："></a>4、打开<code>frpc.ini</code>文件，具体修改配置如下：</h3><p>最上面这一部分是必要的，无需任何改动，这部分主要是配置连接frp的服务器信息。</p>
+<pre><code class="linux">[common]
+server_addr = www.makedreamsirfrp.xyz
+server_port = 7000
+token = love421forever</code></pre>
+<p>下面举例说明常用的tcp、http、https映射：</p>
+<h4 id="1-tcp映射举例说明："><a href="#1-tcp映射举例说明：" class="headerlink" title="(1)tcp映射举例说明："></a>(1)<code>tcp</code>映射举例说明：</h4><pre><code>[MDS_NAS_SSH]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 22
+remote_port = 6666</code></pre><p>第一行：中括号中内容为映射名称，用以快速寻找区分众多的映射服务，每一个映射都要取一个名字，只支持英文，推荐命名形式：姓名简称_设备_服务，比如：<code>MDS_NAS_SSH</code>；</p>
+<p>第二行：类型，因为你映射的是<code>ssh</code>端口，所以选择<code>tcp</code>，如果你要映射http服务或者<code>http</code>服务，那就填写对应的http或者https；</p>
+<p>第三行：为你映射局域网内设备的<code>IP</code>地址，<code>127.0.0.1</code>代表的是本设备的内网ip地址；</p>
+<p>第四行：本地端口号，例子中22端口为我<code>nas</code>的<code>ssh</code>端口号；</p>
+<p>第五行：远端端口号，也就是映射成功之后你所用的端口号，可以自定义，开房的端口号是0到65535；</p>
+<p>映射之后访问地址是<code>server_addr</code>固定不变的即：<code>www.makedreamsirfrp.xyz</code>，端口号是你刚刚自己填写的<code>local_port</code>即：<code>6666</code>。</p>
+<h4 id="2-HTTP映射举例说明："><a href="#2-HTTP映射举例说明：" class="headerlink" title="(2)HTTP映射举例说明："></a>(2)<code>HTTP</code>映射举例说明：</h4><pre><code>[MDS_NAS_5000]
+type = http
+local_ip = 192.168.6.241
+local_port = 5000
+subdomain = nas 或者 custom_domains = 你自己的域名
+</code></pre><p>第一、二、三、四行类比tcp映射中所述；</p>
+<p>第五行：如果你没有域名，那么你可以配置subdomain，你的访问地址将会是 <a href="http://nas.makedreamsirfrp.xyz" target="_blank" rel="noopener">http://nas.makedreamsirfrp.xyz</a>，如果你自己有域名，那么你可以配置<code>custom_domains</code>来绑定你自己的域名，你的访问地址将会是 <a href="http://你自己的域名" target="_blank" rel="noopener">http://你自己的域名</a>（你自己的域名需要添加一条CNAME解析记录解析到<code>www.makedreamsirfrp.xyz</code>）</p>
+<h4 id="3-HTTPS映射跟http映射一样，例子如下："><a href="#3-HTTPS映射跟http映射一样，例子如下：" class="headerlink" title="(3)HTTPS映射跟http映射一样，例子如下："></a>(3)<code>HTTPS</code>映射跟<code>http</code>映射一样，例子如下：</h4><pre><code>[MDS_PVE]
+type = https
+local_ip = 192.168.6.179
+local_port = 8006
+subdomain = pve</code></pre><p>映射成功后访问的域名地址就是：<a href="https://pve.makedreamsirfrp.xyz" target="_blank" rel="noopener">https://pve.makedreamsirfrp.xyz</a></p>
+<h3 id="5、修改之后保存，输入-frpc-c-frpc-ini，如果看见此时在服务端会看到start-proxy-sucess字样，即连接成功。"><a href="#5、修改之后保存，输入-frpc-c-frpc-ini，如果看见此时在服务端会看到start-proxy-sucess字样，即连接成功。" class="headerlink" title="5、修改之后保存，输入./frpc -c ./frpc.ini，如果看见此时在服务端会看到start proxy sucess字样，即连接成功。"></a>5、修改之后保存，输入<code>./frpc -c ./frpc.ini</code>，如果看见此时在服务端会看到<code>start proxy sucess</code>字样，即连接成功。</h3><p><img src="https://zcjun.oss-cn-shenzhen.aliyuncs.com/o_1deoqj7suqlg1f3a1pqr4vo1jqna.png" alt></p>
+<h3 id="6、接着按下ctrl-c结束任务，然后输入nohup-frpc-c-frpc-ini-amp-让任务在后台一直运行，看到nohub-out字样，就代表真成功了，然后按下ctrl-c。"><a href="#6、接着按下ctrl-c结束任务，然后输入nohup-frpc-c-frpc-ini-amp-让任务在后台一直运行，看到nohub-out字样，就代表真成功了，然后按下ctrl-c。" class="headerlink" title="6、接着按下ctrl+c结束任务，然后输入nohup ./frpc -c ./frpc.ini &amp;让任务在后台一直运行，看到nohub.out字样，就代表真成功了，然后按下ctrl+c。"></a>6、接着按下<code>ctrl+c</code>结束任务，然后输入<code>nohup ./frpc -c ./frpc.ini &amp;</code>让任务在后台一直运行，看到<code>nohub.out</code>字样，就代表真成功了，然后按下<code>ctrl+c</code>。</h3><p><img src="https://zcjun.oss-cn-shenzhen.aliyuncs.com/o_1deoqmrpl130d1h5m1dj7km01mioa.png" alt></p>
+<h3 id="7、输入ps-aux-grep-frp-grep-v-grep查看当前系统后台进程，正常的话是可以看到用户名，进程号，运行时间等等信息"><a href="#7、输入ps-aux-grep-frp-grep-v-grep查看当前系统后台进程，正常的话是可以看到用户名，进程号，运行时间等等信息" class="headerlink" title="7、输入ps -aux|grep frp| grep -v grep查看当前系统后台进程，正常的话是可以看到用户名，进程号，运行时间等等信息"></a>7、输入ps -aux|grep frp| grep -v grep查看当前系统后台进程，正常的话是可以看到用户名，进程号，运行时间等等信息</h3><p><img src="https://zcjun.oss-cn-shenzhen.aliyuncs.com/o_1deoqpbfuvqh1l6816rvk7gha0a.png" alt></p>
+<h3 id="8、这个时候我们登录frp服务器的dashboard查看我们的映射："><a href="#8、这个时候我们登录frp服务器的dashboard查看我们的映射：" class="headerlink" title="8、这个时候我们登录frp服务器的dashboard查看我们的映射："></a>8、这个时候我们登录frp服务器的dashboard查看我们的映射：</h3><p>地址：<a href="http://www.makedreamsirfrp.xyz:7500" target="_blank" rel="noopener">http://www.makedreamsirfrp.xyz:7500</a></p>
+<p>账号：love421</p>
+<p>密码：love421</p>
+<p><font color="red" size="5">注意事项：</font></p>
+<p>1.如果当前frp已经在后台运行，而此时你想修改它，可以先修改配置保存，然后输入<code>ps -aux|grep frp| grep -v grep</code>查看进程号，如下图是<code>2739</code>，接着输入<code>kill -9 2739</code>杀掉正在运行的frp进程，最后再输入<code>nohup ./frpc -c ./frpc.ini &amp;</code>让修改之后的任务再后台运行。<br><img src="https://zcjun.oss-cn-shenzhen.aliyuncs.com/o_1deosqou292fbj01hckb7o100da.png" alt><br>2.如果连接服务器失败的话，大多数原因是服务器和客户端版本不一致、token错误、端口被占用、泛域名也就是sudomain重复、映射名称被占用等，所以映射的时候命名最前面可以加个名字拼音首字母简称，不至于重复率太高。</p>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏<div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/AliPayQR.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/WeChanQR.jpg"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+      </section>
       
 <div id="vcomments"></div>
 <script>
@@ -290,32 +382,24 @@
   }
 </script>
 
-      <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
-      <footer class="post-footer">
-        <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
-        <div class="post-tags">
-        </div>
-        <div class="post-share">
-          <div class="social-share sharehidden share-component"></div>
-          <i class="iconfont show-share icon-forward"></i>
-        </div>
-      </footer><!-- .entry-footer -->
-    </article>
-      <!-- #post-## -->
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <a href="/about/" class="profile gravatar"><img src="https://static.dy208.cn/o_1dg1rhema159114aa1tdv93t1ra1a.jpg" itemprop="image" alt="小鱼小虾" height="70" width="70"></a>
+          <a href class="profile gravatar"><img src itemprop="image" alt height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href itemprop="url" rel="author">小鱼小虾</a>
+            <a href itemprop="url" rel="author"></a>
             </h3>
           </div>
         </div>
         <hr>
-        <p><i class="iconfont icon-write"></i>和你在一起我没羡慕过别人!</p>
+        <p><i class="iconfont icon-write"></i></p>
       </section>
+    </main><!-- #main -->
   </div><!-- #primary -->
+</div>
+
+
 
     </div>    
     <div class="ins-search">
